@@ -14,7 +14,7 @@ public interface OnPhotoTapListener {
      *
      * @param view ImageView the user tapped.
      * @param x    where the user tapped from the of the Drawable, as percentage of the
-     *             Drawable width.
+     *             Drawable width.//用户敲击的位置（在图片中从左往右的位置）占图片宽度的百分比
      * @param y    where the user tapped from the top of the Drawable, as percentage of the
      *             Drawable height.
      */
